@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/custom_button"
+    android:layout_height="match_parent"
+    tools:context="com.lapor.bp2jk.lampung.MainActivity">
+
+
+    <ImageView
+        android:id="@+id/intro_description"
+        android:layout_width="268dp"
+        android:layout_height="130dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="90dp"
+        android:src="@drawable/iprove" />
+
+    <Button
+        android:theme="@style/AppTheme.Button"
+        android:id="@+id/imageButton2"
+        android:layout_width="347dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/intro_description"
+        android:layout_marginTop="25dp"
+        android:fontFamily="@font/palanquin_dark_medium"
+        android:layout_centerHorizontal="true"
+        android:text="Informasi Pengaduan"
+        android:textSize="24sp"
+        android:textColor="#1f77b4"/>
+
+    <Button
+        android:theme="@style/AppTheme.Button"
+        android:id="@+id/imageButton3"
+        android:layout_width="346dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageButton2"
+        android:layout_marginTop="24dp"
+        android:fontFamily="@font/palanquin_dark_medium"
+        android:text="Buat Pengaduan"
+        android:layout_centerHorizontal="true"
+        android:textSize="24sp"
+        android:textStyle=""
+        android:textColor="#1f77b4"/>
+
+    <Button
+        android:theme="@style/AppTheme.Button"
+        android:id="@+id/imageButton4"
+        android:layout_width="345dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageButton3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:fontFamily="@font/palanquin_dark_medium"
+        android:text="Cek Pengaduan"
+        android:textSize="24sp"
+        android:textColor="#1f77b4"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageButton4"
+        android:layout_marginTop="150dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/custom_button2"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginVertical="0dp"
+            android:fontFamily="@font/akaya_telivigala"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:text="\n''Bekerja Keras, Bergerak Cepat, dan Bertindak Tepat''"
+            android:textSize="16sp" />
+
+
+    </LinearLayout>
+
+
+
+
+
+</RelativeLayout>

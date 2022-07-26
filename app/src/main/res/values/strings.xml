@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">E-Lapor</string>
+    <string name="textsplash1">Balai Pelaksana Pemilihan Jasa Konstruksi Wilayah Lampung</string>
+    <string name="textsplash2">Wilayah Lampung</string>
+    <string name="textview_cek">TextView Cek</string>
+    <string name="textview_buat">TextView Buat</string>
+    <string name="textview_info">TextView Info</string>
+    <string name="text">E-Lapor BP2JK</string>
+    <string name="textversi">Versi 1.0</string>
+
+    <string name="ir_adri_agus">Ir. Adri Agus\n Kabalai BP2JK Wilayah Lampung</string>
+
+    <string name="textinfo">
+    Alur kerja aplikasi E-LAPOR ini yakni :\n\n
+    1. Pelaporan\n
+        Penyedia/Masyarakat dapat mengirimkan laporan pada Aplikasi E-LAPOR, Atau melalui e-adu. Laporan kemudian diverifikasi terlebih dahulu oleh Administrator E-LAPOR untuk kejelasan dan kelengkapan, dan selanjutnya diteruskan ke Balai BP2JK/Pokja paling lambat 3 hari kerja setelah pelaporan dilakukan.\n\n
+    2. Tindak Lanjut Pelaporan\n
+        E-LAPOR akan memberikan notifikasi kepada pelapor. BP2JK/Pokja diberikan waktu paling lambat 3 hari kerja untuk melakukan koordinasi internal dan perumusan tindak lanjut dari pelaporan yang diberikan oleh pihak Penyedia. Apabila sudah ada rumusan tindak lanjut, maka BP2JK/Pokja memberikan informasi kepada pelapor sebagai tindak lanjut laporan.\n\n
+    3. Penutupan Laporan\n
+        Laporan dianggap selesai apabila sudah terdapat tindak lanjut dari BP2JK/Pokja pada laporan, dan telah berjalan 10 hari kerja setelah tindak lanjut dilakukan tanpa adanya balasan dari pelapor maupun Administrator E-LAPOR.\n\n
+</string>
+    <string name="exit">Keluar</string>
+    <string name="iya">Iya</string>
+    <string name="tidak">Tidak</string>
+    <string name="email" />
+    <string name="password" />
+    <string name="login" />
+    <string name="title_activity_register" />
+    <string name="title_activity_menu">Menu</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+
+</resources>
